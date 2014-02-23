@@ -1,5 +1,4 @@
 packer_cache
-vagranttest/.vagrant
 *.box
 *.
-centos-6.4-x86_64-netboot/vagranttest/.vagrant
+**/.vagrant
