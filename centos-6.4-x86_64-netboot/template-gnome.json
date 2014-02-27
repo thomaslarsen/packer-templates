@@ -23,7 +23,7 @@
     {
       "type": "virtualbox-iso",
       "boot_command": [
-        "<tab> text ks=http://{{ .HTTPIP }}:{{ .HTTPPort }}/ks.cfg<enter><wait>"
+        "<tab> text ks=http://{{ .HTTPIP }}:{{ .HTTPPort }}/ks-gnome.cfg<enter><wait>"
       ],
       "boot_wait": "10s",
       "disk_size": 20480,
@@ -31,7 +31,7 @@
       "http_directory": "http",
       "iso_checksum": "0d9dc37b5dd4befa1c440d2174e88a87",
       "iso_checksum_type": "md5",
-      "iso_url": "file:///Users/thomaslarsen/ISOs/CentOS-6.5-x86_64-minimal.iso",
+      "iso_url": "file://../../../ISO/CentOS-6.5-x86_64-minimal.iso",
       "ssh_username": "vagrant",
       "ssh_password": "vagrant",
       "ssh_port": 22,
@@ -57,7 +57,7 @@
     {
       "type": "vmware",
       "boot_command": [
-        "<tab> text ks=http://{{ .HTTPIP }}:{{ .HTTPPort }}/ks.cfg<enter><wait>"
+        "<tab> text ks=http://{{ .HTTPIP }}:{{ .HTTPPort }}/ks-gnome.cfg<enter><wait>"
       ],
       "boot_wait": "10s",
       "disk_size": 20480,
@@ -65,7 +65,7 @@
       "http_directory": "http",
       "iso_checksum": "0d9dc37b5dd4befa1c440d2174e88a87",
       "iso_checksum_type": "md5",
-      "iso_url": "file:///Users/thomaslarsen/ISOs/CentOS-6.5-x86_64-minimal.iso",
+      "iso_url": "file://../../../ISO/CentOS-6.5-x86_64-minimal.iso",
       "skip_compaction": true,
       "ssh_username": "vagrant",
       "ssh_password": "vagrant",
